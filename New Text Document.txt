@@ -1,0 +1,5 @@
+public key ENEUNQKL
+private key c959bba3-7da7-4806-8bbf-b1ae97bd1ca2
+
+stitch-cli login --username=ENEUNQKL --api-key=c959bba3-7da7-4806-8bbf-b1ae97bd1ca2
+ 

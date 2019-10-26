@@ -1,0 +1,12 @@
+{
+    "name": "s_01_get_article_by_id",
+    "run_as_authed_user": false,
+    "run_as_user_id": "",
+    "run_as_user_id_script_source": "",
+    "options": {
+        "httpMethod": "GET",
+        "secret": "wikimodels",
+        "validationMethod": "SECRET_AS_QUERY_PARAM"
+    },
+    "respond_result": true
+}

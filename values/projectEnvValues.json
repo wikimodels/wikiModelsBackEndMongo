@@ -1,0 +1,9 @@
+{
+    "name": "projectEnvValues",
+    "value": {
+        "db": "WikiModelsSiteDb",
+        "articles": "articles",
+        "erlogs": "erlogs"
+    },
+    "from_secret": false
+}

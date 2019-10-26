@@ -1,0 +1,5 @@
+{
+    "name": "util_db_get_articles_collection",
+    "private": true,
+    "run_as_system": true
+}

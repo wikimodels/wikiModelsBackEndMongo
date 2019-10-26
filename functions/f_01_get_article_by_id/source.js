@@ -4,7 +4,7 @@ exports = async function(articleId) {
 
         const coll = await context.functions.execute("util_db_get_articles_collection");
 
-        return await coll.find({ _id: BSON.ObjectId(articleId) });
+        return await coll.findOne({ _id: BSON.ObjectId(articleId) });
 
 
     } catch (e) {

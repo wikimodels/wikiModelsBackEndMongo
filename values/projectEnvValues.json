@@ -3,6 +3,7 @@
     "value": {
         "db": "WikiModelsSiteDb",
         "articles": "articles",
+        "ribbons": "ribbons",
         "erlogs": "erlogs"
     },
     "from_secret": false

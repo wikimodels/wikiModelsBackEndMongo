@@ -1,5 +1,5 @@
 {
-    "name": "f_01_get_article_by_id",
+    "name": "util_db_get_ribbons_collection",
     "private": true,
     "run_as_system": true
 }

@@ -1,9 +1,9 @@
 exports = async function(payload, response) {
 
-    const { articleId } = payload.query;
+    const { article_id } = payload.query;
 
     try {
-        const result = await context.functions.execute("f_01_get_article_by_id", articleId);
+        const result = await context.functions.execute("f_01_get_article_by_id", article_id);
 
         if (result.message) {
             response.setStatusCode(422);
